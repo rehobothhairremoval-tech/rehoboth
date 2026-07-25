@@ -10,8 +10,8 @@
   <link rel="apple-touch-icon" href="/assets/logo.jpg">
 
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Rehoboth Beauty Studio in Mannuthy, Thrissur offers FDA-approved Permanent Hair Removal by Electrolysis, Microblading, Ombre Brows, Hydrafacial & Ladies Only aesthetic care.">
-  <meta name="keywords" content="Permanent Hair Removal Thrissur, Electrolysis Thrissur, Rehoboth Beauty Studio, Microblading Thrissur, Hydrafacial, Ombre Brows, Beauty Clinic Mannuthy, Ladies Only Studio Thrissur">
+  <meta name="description" content="Rehoboth Beauty Studio in Mannuthy, Thrissur offers FDA-approved Permanent Hair Removal by Electrolysis, Microblading, Ombre Brows, Hydrafacial, Hair Spa & Ladies Only aesthetic care.">
+  <meta name="keywords" content="Permanent Hair Removal Thrissur, Electrolysis Thrissur, Rehoboth Beauty Studio, Microblading Thrissur, Hydrafacial, Ombre Brows, Hair Spa Thrissur, Beauty Clinic Mannuthy, Ladies Only Studio Thrissur">
   <meta name="author" content="Rehoboth Beauty Studio">
   <meta name="theme-color" content="#4A1455">
 
@@ -26,13 +26,13 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Rehoboth Beauty Studio | Permanent Hair Removal Thrissur">
-  <meta name="twitter:description" content="FDA-Approved Permanent Hair Removal by Electrolysis & Premium Makeup Services for Ladies in Thrissur.">
+  <meta name="twitter:description" content="FDA-Approved Permanent Hair Removal by Electrolysis & Premium Care for Ladies in Thrissur.">
   <meta name="twitter:image" content="/assets/hero.jpg">
 
   <!-- Google Fonts & Remix Icons -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
 
   <!-- Stylesheet -->
@@ -53,23 +53,30 @@
       "addressRegion": "Thrissur",
       "addressCountry": "IN"
     },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
-      ],
-      "opens": "09:00",
-      "closes": "18:00"
-    }
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Sunday"],
+        "description": "Open by Appointment Only"
+      }
+    ]
   }
   </script>
-  <script type="module" crossorigin src="/assets/index-mgYKMaql.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-BhDcRt1Y.css">
+  <script type="module" crossorigin src="/assets/index-B2yxoQf1.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DdVQS8z5.css">
 </head>
 <body>
 
   <!-- ==========================================
-       NAVBAR (Gallery removed)
+       NAVBAR
        ========================================== -->
   <header class="navbar" id="navbar">
     <div class="container nav-container">
@@ -84,7 +91,7 @@
         <li><a href="#home" class="nav-link active">Home</a></li>
         <li><a href="#services" class="nav-link">Services <i class="ri-arrow-down-s-line" style="font-size:0.8rem;"></i></a></li>
         <li><a href="#about" class="nav-link">About Us</a></li>
-        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
         <li><a href="#contact" class="nav-link">Contact Us</a></li>
       </ul>
 
@@ -103,7 +110,7 @@
   </header>
 
   <!-- ==========================================
-       HERO SECTION (MOBILE & DESKTOP PERFECTED)
+       HERO SECTION
        ========================================== -->
   <section class="hero" id="home">
     <div class="container">
@@ -118,13 +125,13 @@
           </div>
 
           <h1 class="hero-title-main">Permanent<br>Hair Removal</h1>
-          <div class="hero-title-accent">by ELECTROLYSIS</div>
+          <div class="hero-title-accent hero-electrolysis-font">by ELECTROLYSIS</div>
 
           <p class="hero-subtitle">
             The only FDA-approved permanent solution for unwanted hair.
           </p>
 
-          <!-- 5 Feature Circle Items (Responsive Touch-Scrollable Grid on Mobile) -->
+          <!-- 5 Feature Circle Items -->
           <div class="hero-feature-circles">
             
             <div class="feature-circle-item">
@@ -134,7 +141,7 @@
 
             <div class="feature-circle-item">
               <div class="feature-circle-icon"><i class="ri-shield-user-line"></i></div>
-              <span class="feature-circle-label">Safe for<br>All Skin<br>Types</span>
+              <span class="feature-circle-label">Safe for<br>All Skin Types,<br>Ages & Hair</span>
             </div>
 
             <div class="feature-circle-item">
@@ -196,7 +203,7 @@
         <div class="feature-strip-item">
           <div class="feature-strip-icon-circle"><i class="ri-shield-user-line"></i></div>
           <div class="feature-strip-text">
-            Safe & Effective for All<br>Skin Types
+            Safe & Effective for All<br>Skin Types, Ages & Hair
           </div>
         </div>
 
@@ -226,7 +233,7 @@
   </section>
 
   <!-- ==========================================
-       SERVICES SECTION (11 Services)
+       SERVICES SECTION (12 Services)
        ========================================== -->
   <section class="services-section" id="services">
     <div class="container">
@@ -242,11 +249,11 @@
         <div class="service-card">
           <div class="service-card-img-wrapper">
             <img src="/assets/electrolysis.jpg" alt="Permanent Hair Removal by Electrolysis" class="service-card-img" loading="lazy">
-            <div class="service-floating-icon"><i class="ri-sparkles-line"></i></div>
+            <div class="service-floating-icon"><i class="ri-sparkles-fill"></i></div>
           </div>
           <div class="service-card-body">
-            <h3 class="service-card-title">Permanent Hair Removal</h3>
-            <p class="service-card-desc">Permanently remove unwanted hair with electrolysis.</p>
+            <h3 class="service-card-title"><i class="ri-sparkles-fill" style="color:var(--accent); margin-right:0.25rem;"></i> Permanent Hair Removal</h3>
+            <p class="service-card-desc">FDA-approved 100% permanent hair removal by Electrolysis. Click Learn More to see all treated body parts.</p>
             <a href="#" class="service-card-link service-learn-more" data-service-id="electrolysis">Learn More →</a>
           </div>
         </div>
@@ -355,7 +362,20 @@
           </div>
         </div>
 
-        <!-- Card 10: Organic Skin Peel -->
+        <!-- Card 10: Hair Spa -->
+        <div class="service-card">
+          <div class="service-card-img-wrapper">
+            <img src="/assets/hair_spa.jpg" alt="Hair Spa & Deep Conditioning at Rehoboth Beauty Studio" class="service-card-img" loading="lazy">
+            <div class="service-floating-icon"><i class="ri-water-flash-line"></i></div>
+          </div>
+          <div class="service-card-body">
+            <h3 class="service-card-title">Hair Spa</h3>
+            <p class="service-card-desc">Deep scalp nourishment, therapy & repair for soft, glossy hair.</p>
+            <a href="#" class="service-card-link service-learn-more" data-service-id="hair-spa">Learn More →</a>
+          </div>
+        </div>
+
+        <!-- Card 11: Organic Skin Peel -->
         <div class="service-card">
           <div class="service-card-img-wrapper">
             <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80" alt="Organic Skin Peel" class="service-card-img" loading="lazy">
@@ -368,7 +388,7 @@
           </div>
         </div>
 
-        <!-- Card 11: Wart Removal -->
+        <!-- Card 12: Wart Removal -->
         <div class="service-card">
           <div class="service-card-img-wrapper">
             <img src="/assets/wart_removal.jpg" alt="Wart Removal at Rehoboth Beauty Studio" class="service-card-img" loading="lazy">
@@ -384,53 +404,146 @@
       </div>
     </div>
   </section>
+
   <!-- About Section -->
-<section id="about" class="about-section">
-  <div class="container">
-    <span class="section-tag">ABOUT US</span>
+  <section id="about" class="about-section">
+    <div class="container">
+      <span class="section-tag">ABOUT US</span>
 
-    <h2>Beauty with Care & Confidence</h2>
+      <h2>Beauty with Care & Confidence</h2>
 
-    <p>
-      At Rehoboth Beauty Studio, we are dedicated to helping every client look and
-      feel their best through personalized beauty treatments in a calm,
-      hygienic, and welcoming environment. Our focus is on quality,
-      professionalism, and delivering results you can trust.
-    </p>
-  </div>
-</section>
+      <p>
+        At Rehoboth Beauty Studio, we are dedicated to helping every client look and
+        feel their best through personalized beauty treatments in a calm,
+        hygienic, and welcoming environment. Our focus is on quality,
+        professionalism, and delivering results you can trust.
+      </p>
+    </div>
+  </section>
 
   <!-- ==========================================
-       CUSTOMER REVIEWS & RATING SYSTEM
+       FAQ SECTION (SIMPLE CLEAN ACCORDION)
        ========================================== -->
-  <section class="testimonials-section" id="testimonials">
+  <section class="faq-section" id="faq">
     <div class="container">
       
-      <div class="testimonials-box">
-        <div class="testimonials-header-bar">
-          <div>
-            <h3>Customer Reviews & Ratings</h3>
-            <p class="sub" style="margin-bottom:0;">Share your experience or read feedback from our valued clients.</p>
-          </div>
-          <div>
-            <button class="btn btn-pink" id="openReviewBtn">
-              <i class="ri-edit-line"></i> Write a Review / Rate Us
-            </button>
+      <div class="section-header">
+        <span class="subheading">FREQUENTLY ASKED QUESTIONS</span>
+        <h2>Frequently Asked Questions</h2>
+        <p style="color:var(--text-muted); margin-top:0.5rem; font-size:0.95rem;">
+          Find quick answers to common questions about our services.
+        </p>
+      </div>
+
+      <!-- Simple Clean FAQ Accordion List -->
+      <div class="faq-accordion-container" id="faqAccordion">
+
+        <!-- Q1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-question-line faq-q-icon"></i> Is Electrolysis hair removal really 100% permanent?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes! Electrolysis is the <strong>only hair removal technology approved by the US FDA for 100% permanent hair removal</strong>. Unlike laser hair reduction which only reduces growth, electrolysis permanently destroys the hair growth center so hair never grows back.
+            </div>
           </div>
         </div>
 
-        <!-- Dynamic Overall Rating Summary -->
-        <div id="ratingSummaryContainer" style="margin-top: 1.5rem;"></div>
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-body-scan-line faq-q-icon"></i> Which body parts can be treated with Electrolysis?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Electrolysis hair removal services are available for:
+              <ul class="faq-body-parts-list">
+                <li><i class="ri-checkbox-circle-fill"></i> Eyebrow</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Upper lip</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Lower lip</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Chin</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Sideburns</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Underarm</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Abdomen</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Chest</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Full face</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Neck</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Legs</li>
+                <li><i class="ri-checkbox-circle-fill"></i> Hand</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
-        <!-- Container for Customer Reviews -->
-        <div id="reviewsContainer" class="reviews-dynamic-grid" style="margin-top: 1.5rem;">
-          <!-- Dynamically populated from localStorage -->
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-shield-check-line faq-q-icon"></i> Is Electrolysis safe for all skin types, ages, and hair?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes, Electrolysis is safe and effective for all skin tones, ages, and hair types (including dark, fine, blond, or gray hair).
+            </div>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-heart-pulse-line faq-q-icon"></i> Does Electrolysis treatment hurt or cause side effects?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Most clients experience only a mild warming sensation. We use gentle settings and sterilized equipment to ensure maximum comfort with no scars or permanent side effects.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-water-flash-line faq-q-icon"></i> What are the benefits of Hair Spa treatment?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Hair Spa provides deep scalp nourishment, repairs damaged strands, reduces hair fall, and restores softness and gloss to your hair.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q6 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-women-line faq-q-icon"></i> Is Rehoboth Beauty Studio strictly Ladies Only?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Yes, Rehoboth Beauty Studio is an exclusive 100% Ladies Only Studio. All treatments are performed by experienced female specialists.
+            </div>
+          </div>
+        </div>
+
+        <!-- Q7 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            <span><i class="ri-calendar-event-line faq-q-icon"></i> How can I book an appointment?</span>
+            <i class="ri-add-line faq-toggle-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              You can book an appointment by clicking the <strong>Book Appointment</strong> button on the website, or contact us directly on WhatsApp at <strong>+91 9633395475</strong> / Call <strong>+91 8113834379</strong>.
+            </div>
+          </div>
         </div>
 
       </div>
-
-    </div>
-  </section>
 
   <!-- ==========================================
        GET IN TOUCH & LOCATION
@@ -461,7 +574,10 @@
 
           <div class="contact-item-row">
             <i class="ri-time-line"></i>
-            <div><strong>Timing:</strong> Mon - Sat: 9.00 AM to 6.00 PM</div>
+            <div>
+              <strong>Timing:</strong> Mon - Sat: 9.00 AM to 6.00 PM<br>
+              <span style="color:var(--accent); font-weight:600;"><i class="ri-calendar-check-line" style="font-size:0.9rem;"></i> Sun: Open by Appointment Only</span>
+            </div>
           </div>
 
           <div class="contact-item-row" style="margin-top:0.5rem;">
@@ -534,7 +650,7 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#about">About Us</a></li>
-            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div>
@@ -545,8 +661,8 @@
           <ul class="footer-links-list">
             <li><a href="#services">Electrolysis</a></li>
             <li><a href="#services">Permanent Makeup</a></li>
+            <li><a href="#services">Hair Spa</a></li>
             <li><a href="#services">Skin Treatments</a></li>
-            <li><a href="#services">Hair Regrowth</a></li>
           </ul>
         </div>
 
@@ -554,7 +670,7 @@
         <div>
           <h4 class="footer-col-title">FOLLOW US</h4>
           <ul class="footer-links-list">
-            <li><a href="https://www.instagram.com/sayanaeby?igsh=MXFjdmR6dm5udjNvNA==" target="_blank" rel="noopener"><i class="ri-instagram-line"></i> Instagram</a></li>
+            <li><a href="https://www.instagram.com/rehobothelectrolysis?igsh=aDl2aXc3a2IyOTFn" target="_blank" rel="noopener"><i class="ri-instagram-line"></i> Instagram</a></li>
             <li><a href="https://www.facebook.com/429797433560608/" target="_blank" rel="noopener"><i class="ri-facebook-fill"></i> Facebook</a></li>
             <li><a href="https://wa.me/919633395475" target="_blank" rel="noopener"><i class="ri-whatsapp-line"></i> WhatsApp</a></li>
           </ul>
@@ -616,6 +732,7 @@
             <option value="Advanced Hydrafacial">Advanced Hydrafacial</option>
             <option value="Mesotherapy">Mesotherapy</option>
             <option value="Hair Regrowth">Hair Regrowth</option>
+            <option value="Hair Spa">Hair Spa</option>
             <option value="Organic Skin Peel">Organic Skin Peel</option>
             <option value="Wart Removal">Wart Removal</option>
           </select>
@@ -639,48 +756,6 @@
   </div>
 
   <!-- ==========================================
-       WRITE A REVIEW / RATING MODAL
-       ========================================== -->
-  <div class="modal-overlay" id="reviewModal" role="dialog" aria-modal="true" aria-labelledby="reviewModalTitle">
-    <div class="modal-card">
-      <button class="modal-close" id="closeReviewModal" aria-label="Close modal"><i class="ri-close-line"></i></button>
-      
-      <div style="text-align: center; margin-bottom: 1.5rem;">
-        <h3 id="reviewModalTitle" style="font-size:1.4rem; color:var(--primary);">Write a Review & Rate Us</h3>
-        <p style="color: var(--text-muted); font-size: 0.85rem;">Your feedback helps us provide exceptional care.</p>
-      </div>
-
-      <form id="reviewForm">
-        <div class="form-group">
-          <label for="reviewerName">Your Name *</label>
-          <input type="text" id="reviewerName" class="form-control" placeholder="e.g. Anjali Nair" required>
-        </div>
-
-        <div class="form-group">
-          <label>Select Rating *</label>
-          <div class="star-rating-input" id="starRatingInput">
-            <i class="ri-star-fill star-opt" data-rating="1"></i>
-            <i class="ri-star-fill star-opt" data-rating="2"></i>
-            <i class="ri-star-fill star-opt" data-rating="3"></i>
-            <i class="ri-star-fill star-opt" data-rating="4"></i>
-            <i class="ri-star-fill star-opt" data-rating="5"></i>
-          </div>
-          <input type="hidden" id="selectedRating" value="5" required>
-        </div>
-
-        <div class="form-group">
-          <label for="reviewComment">Your Review / Feedback *</label>
-          <textarea id="reviewComment" class="form-control" rows="4" placeholder="Write about your experience with our services..." required></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-pink" style="width:100%; font-size:0.95rem;">
-          Submit Review <i class="ri-send-plane-fill"></i>
-        </button>
-      </form>
-    </div>
-  </div>
-
-  <!-- ==========================================
        SERVICE DETAIL MODAL
        ========================================== -->
   <div class="modal-overlay" id="serviceDetailModal" role="dialog" aria-modal="true">
@@ -691,7 +766,7 @@
   </div>
 
   <!-- ==========================================
-       FLOATING QUICK ACTIONS (CALL + WHATSAPP + SCROLL TO TOP)
+       FLOATING QUICK ACTIONS
        ========================================== -->
   <div class="floating-actions-container">
     <button class="floating-btn scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top" title="Scroll to top">
