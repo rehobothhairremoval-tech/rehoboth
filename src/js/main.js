@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'electrolysis': {
       title: 'Permanent Hair Removal by Electrolysis',
       description: `
-        <p style="margin-bottom: 0.8rem; line-height: 1.5;">Permanently remove unwanted hair with medical electrolysis. The only <strong>FDA-approved 100% permanent hair removal technology</strong> suitable for all skin tones, ages, and hair types, performed by an expert specialist in a hygienic Ladies Only studio.</p>
+        <p style="margin-bottom: 0.8rem; line-height: 1.5;">Permanently remove unwanted hair with medical electrolysis. The only <strong>FDA-approved 100% permanent hair removal American technology</strong> suitable for all skin tones, ages, and hair types, performed by an expert specialist in a hygienic Ladies Only studio.</p>
         <div style="background: var(--primary-subtle); padding: 0.9rem; border-radius: var(--radius-md); border: 1px solid rgba(74, 20, 85, 0.1); margin-bottom: 1.2rem;">
           <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--primary); margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.5px; display: flex; align-items: center; gap: 0.4rem;">
             <i class="ri-checkbox-circle-line" style="color:var(--accent);"></i> Treatment Areas Covered:
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'ombre-brows': {
       title: 'Ombre Brows',
-      description: '<p>Soft shaded powder brows for a defined, elegant makeup look lasting up to 3 years.</p>',
+      description: '<p>Soft shaded powder brows for a defined, elegant makeup look.</p>',
       image: '/assets/ombre_brows.jpg'
     },
     'eyeliner': {
@@ -194,7 +194,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     'hair-spa': {
       title: 'Hair Spa & Deep Conditioning',
-      description: '<p>Deep scalp nourishment, moisture therapy, and strand repair for soft, glossy, healthy hair.</p>',
+      description: '<p>Experience deep scalp nourishment with moisture therapy and strand repair for soft glossy and healthy hair.</p>',
       image: '/assets/hair_spa.jpg'
     },
     'organic-peel': {
